@@ -22,7 +22,8 @@ Read more about it in [https://github.com/shuchkin/simplexlsx](https://github.co
 ### iOS
 eg. http://localhost/xlsx/excel.php?platform=ios&lang=japanese
 following is the sample output:
-```"select_language" = "言語選択";
+```
+"select_language" = "言語選択";
 "select_nationality" = "国籍選び";
 "about_plan" = "プランの違いについて";
 "toc" = "利用規約について";
@@ -44,7 +45,8 @@ following is the sample output:
 ### Android
 eg. http://localhost/xlsx/excel.php?platform=android&lang=japanese
 Following is the sample output
-```<resources>
+```
+<resources>
 <string name="KEYS">japanese</string>
 <string name="select_language">言語選択</string>
 <string name="select_nationality">国籍選び</string>
