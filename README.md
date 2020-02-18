@@ -1,13 +1,13 @@
 # Localization file generator
 I have used SimpleXLSX class 0.8.12 (Official) to parse xlsx file.
-Read more about it in [https://github.com/shuchkin/simplexlsx](https://github.com/shuchkin/simplexls)  
+Read more about it in [here](https://github.com/shuchkin/simplexls)  
 
 **Bibek Sharma Timalsina**
 
 *Hey, guys, please ★ the package for my motivation :)* 
 
 ## Usage
-1. Just install apache. You can use xampp or mamp.
+1. Just install apache. (You can use [xampp](https://www.apachefriends.org/download.html) or mamp or wamp).
 2. Run apache server
 3. Clone this repo in htdocs folder.
 4. Change the content of provided excel.xlsx file according to your requirement
