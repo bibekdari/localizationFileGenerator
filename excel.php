@@ -22,11 +22,11 @@ if ( $xlsx = SimpleXLSX::parse('excel.xlsx') ) {
 			$value = $r[$index];
 			if ($key != "") {
 				if ($platform == "ios") {
-					$value = trim(preg_replace('/\s+/', '\\n', $value));
+					$value = str_replace(array("\n", "\r"), '\\n', $value);//trim(preg_replace('/\s+/', '\\n', $value));
 					echo('"'.$key.'"'.' = '.'"'.$value.'"');
 					echo(";\n");
 				}else {
-					$value = trim(preg_replace('/\s+/', '\\n', $value));
+					$value = str_replace(array("\n", "\r"), '\\n', $value); //trim(preg_replace('/\s+/', '\\n', $value));
 					echo htmlspecialchars('<string name="'.$key.'">'.$value.'</string>');
 					echo("\n");
 				}
